@@ -17,6 +17,8 @@ Then create the database:
     mkdir logs
     node ./createDB.js
 
+All relevant variables are in the **/ioTrackerLogs/.env** file, you need to insert your token here, and you can define other things.
+
 Now you can start the app:
 
     node ./index.js
